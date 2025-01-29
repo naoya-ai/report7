@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-
-void print_array(int array[], int size);
-void sort_array(int array[], int size);
-
 void print_array(int array[], int size){
     for(int i=0; i<size; i++){
         printf("%d ", array[i]); 
@@ -24,8 +20,8 @@ void sort_array(int array[], int size){
 }
 
 int main(){
-    const int SIZE = 6; 
-    int scores[6] = {100, 60, 70, 100, 90, 80};
+    const int SIZE = 5; 
+    int scores[5] = {100, 60, 70, 100, 90};
 
     printf("scores = ");
     print_array(scores, SIZE);

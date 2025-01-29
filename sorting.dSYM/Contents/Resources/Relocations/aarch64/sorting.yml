@@ -2,8 +2,8 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/naoya/prog2/report7/sorting'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _print_array, symObjAddr: 0x0, symBinAddr: 0x100003D28, symSize: 0x84 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _print_array, symObjAddr: 0x0, symBinAddr: 0x100003D28, symSize: 0x84 }
-  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _sort_array, symObjAddr: 0x84, symBinAddr: 0x100003DAC, symSize: 0xEC }
-  - { offsetInCU: 0x115, offset: 0x115, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x170, symBinAddr: 0x100003E98, symSize: 0xBC }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _print_array, symObjAddr: 0x0, symBinAddr: 0x100003D2C, symSize: 0x84 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _print_array, symObjAddr: 0x0, symBinAddr: 0x100003D2C, symSize: 0x84 }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _sort_array, symObjAddr: 0x84, symBinAddr: 0x100003DB0, symSize: 0xEC }
+  - { offsetInCU: 0x115, offset: 0x115, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x170, symBinAddr: 0x100003E9C, symSize: 0xBC }
 ...
